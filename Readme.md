@@ -24,7 +24,7 @@ and the team Pyraticas - 2.0 is yet again back with a great solution!
 
 ### `Features of explorAR`
 
-1. Augmented Reality of the Milky Way Galaxy.
+1. Augmented Reality of the Solar System.
 
 ![Screenshot (8)](https://user-images.githubusercontent.com/58984405/114281626-fdc2c180-9a5c-11eb-9d43-57c8bf1885ac.png)
 
