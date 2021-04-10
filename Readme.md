@@ -1,7 +1,8 @@
 # explorAR
 ```
-In today's era of conflicting times and modernisation, when it's totally upon us how must we lay the foundation 
-of Education for the future generations to come.The World has seen great damage to education in the post - Covid Crises, 
+In today's era of conflicting times and modernisation, when it's totally upon us 
+how must we lay the foundation of Education for the future generations to come.
+The World has seen great damage to education in the post - Covid Crises, 
 and the team Pyraticas - 2.0 is yet again back with a great solution!
 ```
 
