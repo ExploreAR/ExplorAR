@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Air-Quality</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<html>
+
+<body style="background-color: white;">
+
+
+    <div style="text-align:center;">
+        <p style="color: black;">Click the button to check air health.</p>
+
+        <button onclick="getLocation()" class="book-a-table-btn" style="color:black;">Try It</button>
+        <a href="index.html" style="color:black;" class="book-a-table-btn">ExplorAR</a>
+    </div>
+
+    <div class="modal fade" id="featureModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-primary" id="feature-title">
+                        Air Quality Tree
+                    </h4>
+                </div>
+                <div class="modal-body" id="feature-info">
+                    <div id="echoar">
+                        <img src="https://media1.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="ok" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="content"></div>
+    </div>
+
+    <script>
+        var x = document.getElementById("content");
+
+        //   $("button").click(getLocation());
+
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition, showError);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosition(position) {
+            const API_KEY = "01876191fd50c255971302ebdc124040";
+
+            var data = $.get(
+                `https://api.openweathermap.org/data/2.5/air_pollution?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${API_KEY}`,
+                function (data) {
+                    console.log(data);
+                    const API_KEY = "fragrant-mountain-7260";
+                    let aqi = data.list[0].main.aqi;
+                    console.log("aqi", aqi);
+                    let ENTRY = "";
+                    if (aqi == 5) {
+                        ENTRY = "08f2b75f-3fae-4b1d-b478-3e805b97b5ac";
+                    } else if (aqi == 4) {
+                        ENTRY = "6d8e282f-beaa-45a0-8540-8d7abdb9ee57";
+                    } else if (aqi == 3) {
+                        ENTRY = "94861155-60db-422a-8a70-5e1411ea0505";
+                    } else if (aqi == 2) {
+                        ENTRY = "2422bc29-2d5d-4277-b70b-d4789ec01666";
+                    } else if (aqi == 1) {
+                        ENTRY = "3373896e-8a46-46cd-a50f-aa89640b048c";
+                    }
+                    $.post(
+                        `https://console.echoAR.xyz/post?key=${API_KEY}&entry=${ENTRY}&data=aqi&value=${aqi}`,
+                        function (data) {
+                            $(document).ready(function () {
+                                $("#echoar").load(
+                                    `https://console.echoAR.xyz/webar?key=${API_KEY}&entry=${ENTRY}`
+                                );
+                            });
+                            $("#featureModal").modal("show");
+                        }
+                    );
+                }
+            );
+            // console.log(data);
+            // console.log("hello");
+
+            x.innerHTML = "Loading . . . ";
+        }
+
+        function showError(error) {
+            switch (error.code) {
+                case error.PERMISSION_DENIED:
+                    x.innerHTML = "User denied the request for Geolocation.";
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    x.innerHTML = "Location information is unavailable.";
+                    break;
+                case error.TIMEOUT:
+                    x.innerHTML = "The request to get user location timed out.";
+                    break;
+                case error.UNKNOWN_ERROR:
+                    x.innerHTML = "An unknown error occurred.";
+                    break;
+            }
+        }
+    </script>
+</body>
+
+</html>
