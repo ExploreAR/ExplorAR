@@ -2,63 +2,140 @@
 
 <head>
     <title>Air-Quality</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/airhealth.css">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
 </head>
 <html>
-
-<body style="background-color: white;">
-
-
-    <div style="text-align:center;">
-        <p style="color: black;">Click the button to check air health.</p>
-
-        <button onclick="getLocation()" class="book-a-table-btn" style="color:black;">Try It</button>
-        <a href="index.html" style="color:black;" class="book-a-table-btn">ExplorAR</a>
-    </div>
-
-    <div class="modal fade" id="featureModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title text-primary" id="feature-title">
-                        Air Quality Tree
-                    </h4>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="con-heading">
+                        Check your Air Quality Tree.
+                    </h2>
                 </div>
-                <div class="modal-body" id="feature-info">
-                    <div id="echoar">
-                        <img src="https://media1.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="ok" />
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">
-                        Close
-                    </button>
+                <div class="col-12 justify-content-center button-container">
+                    <button onclick="getLocation()" class="btn btn-lg btn-light btn-hover-light">Try It</button>
+                    <a type="button" href="index.html" class="btn btn-lg btn-dark btn-hover">ExplorAR</a>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="container">
-        <div id="content"></div>
-    </div>
-
-    <script>
-        var x = document.getElementById("content");
-
-        //   $("button").click(getLocation());
-
-        function getLocation() {
+        <!-- <div class="desc-container"> -->
+            <div class="card-folder">
+            <div class="card">
+                <img src="https://source.unsplash.com/user/diegyms/300x200" alt="vitateach" />
+                <div class="card-body">
+                    <h6>Vitateach</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sit? Nesciunt porro.adipisicing elit. Sed, sit? Nesciunt porro.</p>
+                    <div>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/user/frantic/300x200" alt="vitateach" />
+                <div class="card-body">
+                    <h6>Vitateach</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sit? Nesciunt porro.adipisicing elit. Sed, sit? Nesciunt porro.</p>
+                    <div>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/user/5tep5/300x200" />
+                <div class="card-body">
+                    <h6>Vitateach</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sit? Nesciunt porro.adipisicing elit. Sed, sit? Nesciunt porro.</p>
+                    <div>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/user/5tep5/300x200" />
+                <div class="card-body">
+                    <h6>Vitateach</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sit? Nesciunt porro.adipisicing elit. Sed, sit? Nesciunt porro.</p>
+                    <div>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/user/5tep5/300x200" />
+                <div class="card-body">
+                    <h6>Vitateach</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sit? Nesciunt porro.adipisicing elit. Sed, sit? Nesciunt porro.</p>
+                    <div>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="featureModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-primary" id="feature-title">
+                            Air Quality Tree
+                        </h4>
+                    </div>
+                    <div class="modal-body" id="feature-info">
+                        <div id="echoar">
+                            <img src="https://media1.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="ok" />
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+        <script>
+            var x = document.getElementById("content");
+            
+            //   $("button").click(getLocation());
+            
+            function getLocation() {
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(showPosition, showError);
             } else {
                 x.innerHTML = "Geolocation is not supported by this browser.";
             }
         }
-
+        
         function showPosition(position) {
             const API_KEY = "01876191fd50c255971302ebdc124040";
 
