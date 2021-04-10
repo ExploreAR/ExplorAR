@@ -26,7 +26,7 @@ var list = {
         },
         {
             title: "Panda",
-            link: "https://console.echoar.xyz/webar?key=fragrant-mountain-7260&entry=60c68fd7-bcd8-40ca-8005-99b82021c9b1",
+            link: "https://console.echoar.xyz/webar?key=dawn-band-5336&entry=44339327-8318-45ce-936d-de0bbf509cf2",
             left: 10,
             longlat: [30.5961, 114.2977],
             foundin: ["Famously Found in Central parts of China"],
@@ -34,7 +34,7 @@ var list = {
         },
         {
             title: "Tiger",
-            link: "https://console.echoar.xyz/webar?key=fragrant-mountain-7260&entry=b28a4f8d-599f-4d4d-b22b-bba62c3e45e1",
+            link: "https://console.echoar.xyz/webar?key=dawn-band-5336&entry=6133c975-db57-49ff-b4e4-169bda8f1b75",
             left: 10,
             longlat: [25.0376, 76.4563],
             foundin: ["Famously Found in South Asia"],
@@ -58,7 +58,7 @@ var list = {
         },
         {
             title: "Stork ",
-            link: "https://console.echoar.xyz/webar?key=fragrant-mountain-7260&entry=3370f0d9-943f-408a-a9ef-3d0481090b5e",
+            link: "https://console.echoar.xyz/webar?key=dawn-band-5336&entry=d775d512-f54b-4951-9b63-48f430120080",
             left: 10,
             longlat: [40.4637, -3.7492],
             foundin: ["Famously Found in North and South Europe"],
