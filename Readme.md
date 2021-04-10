@@ -69,6 +69,8 @@ and the team Pyraticas - 2.0 is yet again back with a great solution!
 ### `Credits`
 
 [EchoAR](https://www.echoar.xyz/) - Augmented Reality.
-[OpenWeatherMap](https://openweathermap.org/) - Air Quality Index
-[MapTiler](https://www.maptiler.com/google-maps-platform-alternative/) - Map Integration
+
+[OpenWeatherMap](https://openweathermap.org/) - Air Quality Index.
+
+[MapTiler](https://www.maptiler.com/google-maps-platform-alternative/) - Map Integration.
 
