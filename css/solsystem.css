@@ -1897,3 +1897,52 @@ body {
   color: blue;
   background-color: white;
 }
+
+@media screen and (min-width: 768px) {
+  
+.home-button{
+
+  position: absolute;
+  left: 4vw;
+  top: 3vh;
+  margin: 0;
+
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  
+  .home-button{
+  
+    position: absolute;
+    left: 10vw;
+    top: 3vh;
+    margin: 0;
+  
+  }
+}
+  
+
+@media screen and (min-width:450px) and (max-width: 768px) {
+  
+  .home-button{
+  
+    position: absolute;
+    left: 42vw;
+    top: 5vh;
+    margin: 0;
+  
+  }
+}
+
+@media screen and (max-width: 450px) {
+  
+  .home-button{
+  
+    position: absolute;
+    left: 39vw;
+    top: 5vh;
+    margin: 0;
+  
+  }
+}
