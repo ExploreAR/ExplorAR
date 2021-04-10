@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Train+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Zilla+Slab+Highlight:wght@700&display=swap');
 body{
     background: black;
     /* color: darkgray; */
@@ -44,7 +44,7 @@ body{
 .con-heading{
     color: goldenrod;
     font-size: 32px;
-    font-family: 'Train One', 'cursive';
+    font-family: 'Libre Baskerville', serif;
     margin: 2vh 4vw;
     text-align: center;
 }
