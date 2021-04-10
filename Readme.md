@@ -62,10 +62,13 @@ and the team Pyraticas - 2.0 is yet again back with a great solution!
 
 ### `Built With`
 
-[EchoAr](https://www.echoar.xyz/) - Build better AR/VR
+[EchoAR](https://www.echoar.xyz/) - Augmented Reality Models and Integration.
 
-[VSCode](https://code.visualstudio.com/download) - Coding Platform
+[VSCode](https://code.visualstudio.com/download) - Integrated Development Environment and Text Editor.
 
+### `Credits`
 
-
+[EchoAR](https://www.echoar.xyz/) - Augmented Reality.
+[OpenWeatherMap](https://openweathermap.org/) - Air Quality Index
+[MapTiler](https://www.maptiler.com/google-maps-platform-alternative/) - Map Integration
 
