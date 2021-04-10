@@ -1764,8 +1764,9 @@ body {
   font-weight: 600;
   line-height: 1.4em;
   overflow: auto;
-  color: #355cc9;
+  color: #f4fafd;
   padding-right: 10px;
+  text-align: center;
 }
 .back .location,
 .back .price {
@@ -1875,13 +1876,24 @@ body {
 }
 
 .AR-button{
-  width: 50%;
+  width: 35%;
+  color: white;
+  font-weight: 900;
   height: 100%;
-  background-color: rgb(110, 81, 138);
+  /* background-color: rgb(229, 198, 250); */
+  border: 2px solid white;
+  border-radius: 10px;
   grid-row: 6;
   grid-column: 1/-1;
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-align: center;
   justify-self: center;
-  padding: 10px;
+  padding: 8px 5px;
+  font-family: 'Dela-Gothic-One';
+  transition: all 0.6s ease;
+}
+
+.AR-button:hover{
+  color: blue;
+  background-color: white;
 }

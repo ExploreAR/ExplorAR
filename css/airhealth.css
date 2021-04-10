@@ -195,7 +195,7 @@ body{
 
 .card .card-body div a:hover::before{
     width: 100%;
-    height: 100%%;
+    height: 100%;
     left: 0;
 }
 
