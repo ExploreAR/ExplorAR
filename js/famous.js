@@ -6,7 +6,7 @@ var list = {
             left: 10,
             longlat: [23.4162, 25.6628],
             foundin: ["Famously Found in Africa"],
-            info: "- They have unique facial markings with a black ring around each eye and curved, black lips that make them look as if they are smiling.- https://en.wikipedia.org/wiki/Vaquita",
+            info: "- A camel is an even-toed ungulate in the genus Camelus that bears distinctive fatty deposits known as humps on its back. Camels have long been domesticated and, as livestock, they provide food and textiles.- https://en.wikipedia.org/wiki/Camel",
         },
         {
             title: "Elephant",
@@ -14,7 +14,7 @@ var list = {
             left: 10,
             longlat: [-5.9175, 12.5484],
             foundin: ["Famously Found in Rainforest of Africa"],
-            info: "- They have unique facial markings with a black ring around each eye and curved, black lips that make them look as if they are smiling.- https://en.wikipedia.org/wiki/Vaquita",
+            info: "- Elephants are the largest existing land animals. Three species are currently recognised: the African bush elephant, the African forest elephant, and the Asian elephant. Elephantidae is the only surviving family of the order Proboscidea; extinct members include the mastodons.- https://en.wikipedia.org/wiki/Elephant",
         },
         {
             title: "Cobra ",
@@ -22,7 +22,7 @@ var list = {
             left: 10,
             longlat: [12.2602, 77.1461],
             foundin: ["Famously Found in South Asia and Deserts of Africa"],
-            info: "- They have unique facial markings with a black ring around each eye and curved, black lips that make them look as if they are smiling.- https://en.wikipedia.org/wiki/Vaquita",
+            info: "- Cobra, any of various species of highly venomous snakes, most of which expand the neck ribs to form a hood. While the hood is characteristic of cobras, not all of them are closely related. Cobras are found from southern Africa through southern Asia to islands of Southeast Asia..- https://en.wikipedia.org/wiki/King_cobra",
         },
         {
             title: "Panda",
@@ -30,7 +30,7 @@ var list = {
             left: 10,
             longlat: [30.5961, 114.2977],
             foundin: ["Famously Found in Central parts of China"],
-            info: "- They have unique facial markings with a black ring around each eye and curved, black lips that make them look as if they are smiling.- https://en.wikipedia.org/wiki/Vaquita",
+            info: "- The giant panda, also known as the panda bear or simply the panda, is a bear native to South Central China. It is characterised by its bold black-and-white coat and rotund body. The name giant panda is sometimes used to distinguish it from the red panda, a neighboring musteloid.- https://en.wikipedia.org/wiki/Giant_panda",
         },
         {
             title: "Tiger",
@@ -38,7 +38,7 @@ var list = {
             left: 10,
             longlat: [25.0376, 76.4563],
             foundin: ["Famously Found in South Asia"],
-            info: "- They have unique facial markings with a black ring around each eye and curved, black lips that make them look as if they are smiling.- https://en.wikipedia.org/wiki/Vaquita",
+            info: "- The tiger is the largest living cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange-brown fur with a lighter underside. It is an apex predator, primarily preying on ungulates such as deer and wild boar.- https://en.wikipedia.org/wiki/Tiger",
         },
         {
             title: "Kangaroo",
@@ -46,7 +46,7 @@ var list = {
             left: 10,
             longlat: [-25.2744, 133.7751],
             foundin: ["Famously Found in Australia"],
-            info: "- They have unique facial markings with a black ring around each eye and curved, black lips that make them look as if they are smiling.- https://en.wikipedia.org/wiki/Vaquita",
+            info: "- The kangaroo is a marsupial from the family Macropodidae. In common use the term is used to describe the largest species from this family, the red kangaroo, as well as the antilopine kangaroo, eastern grey kangaroo, and western grey kangaroo. Kangaroos are indigenous to Australia and New Guinea..- https://en.wikipedia.org/wiki/Kangaroo",
         },
         {
             title: "Deer",
@@ -54,7 +54,7 @@ var list = {
             left: 10,
             longlat: [54.5260, -105.2551],
             foundin: ["Famously Found in Europe, North and South America"],
-            info: "- They have unique facial markings with a black ring around each eye and curved, black lips that make them look as if they are smiling.- https://en.wikipedia.org/wiki/Vaquita",
+            info: "- Deer or true deer are hoofed ruminant mammals forming the family Cervidae. The two main groups of deer are the Cervinae, including the muntjac, the elk, the red deer, the fallow deer, and the chital; and the Capreolinae, including the reindeer, the roe deer, the mule deer, and the moose.- https://en.wikipedia.org/wiki/Deer",
         },
         {
             title: "Stork ",
@@ -62,7 +62,7 @@ var list = {
             left: 10,
             longlat: [40.4637, -3.7492],
             foundin: ["Famously Found in North and South Europe"],
-            info: "- They have unique facial markings with a black ring around each eye and curved, black lips that make them look as if they are smiling.- https://en.wikipedia.org/wiki/Vaquita",
+            info: "- Storks are large, long-legged, long-necked wading birds with long, stout bills. They belong to the family called Ciconiidae, and make up the order Ciconiiformes. Ciconiiformes previously included a number of other families, such as herons and ibises, but those families have been moved to other orders..- https://en.wikipedia.org/wiki/Stork",
         },
         {
             title: "Racoon",
@@ -70,7 +70,7 @@ var list = {
             left: 10,
             longlat: [37.0902, -95.7129],
             foundin: ["Famously Found in North and South Europe"],
-            info: "- They have unique facial markings with a black ring around each eye and curved, black lips that make them look as if they are smiling.- https://en.wikipedia.org/wiki/Vaquita",
+            info: "- The raccoon, sometimes called the common raccoon to distinguish it from other species, is a medium-sized mammal native to North America. It is the largest of the procyonid family, having a body length of 40 to 70 cm, and a body weight of 5 to 26 kg.- https://en.wikipedia.org/wiki/Raccoon",
         },
         {
             title: "Monkey",
@@ -78,7 +78,7 @@ var list = {
             left: 10,
             longlat: [-8.7832, -55.4915],
             foundin: ["Famously Found in North and South Europe"],
-            info: "- They have unique facial markings with a black ring around each eye and curved, black lips that make them look as if they are smiling.- https://en.wikipedia.org/wiki/Vaquita",
+            info: "- Monkey is a common name that may refer to certain groups or species of simian mammals of infraorder Simiiformes. The term is applied descriptively to groups of primates, such as families of New World monkeys and Old World monkeys..- https://en.wikipedia.org/wiki/Monkey",
         },
         {
             title: "Polar bear",
@@ -86,7 +86,7 @@ var list = {
             left: 10,
             longlat: [71.7069, -42.6043],
             foundin: ["Famously Found in Polar Regions"],
-            info: "- They have unique facial markings with a black ring around each eye and curved, black lips that make them look as if they are smiling.- https://en.wikipedia.org/wiki/Vaquita",
+            info: "- The polar bear is a hypercarnivorous bear whose native range lies largely within the Arctic Circle, encompassing the Arctic Ocean, its surrounding seas and surrounding land masses. It is the largest extant bear species, as well as the largest extant land carnivore .- https://en.wikipedia.org/wiki/Polar_bear",
         },
         {
             title: "Narwhal ",
@@ -94,7 +94,7 @@ var list = {
             left: 10,
             longlat: [48.6987, -72.3586],
             foundin: ["Famously Found in Polar Regions"],
-            info: "- They have unique facial markings with a black ring around each eye and curved, black lips that make them look as if they are smiling.- https://en.wikipedia.org/wiki/Vaquita",
+            info: "- The narwhal or narwhale is a medium-sized toothed whale that possesses a large tusk from a protruding canine tooth. It lives year-round in the Arctic waters around Greenland, Canada, and Russia. It is one of two living species of whale in the family Monodontidae, along with the beluga whale..- https://en.wikipedia.org/wiki/Narwhal",
         },
     ],
 
