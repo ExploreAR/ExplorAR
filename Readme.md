@@ -11,7 +11,7 @@ and the team Pyraticas - 2.0 is yet again back with a great solution!
   <a href="https://youtu.be/gULRNgcQI5U">Video Link here</a>
   
 ### `Presentation Link:`
-  <a href="https://docs.google.com/presentation/d/1Fl9EKHrrzHmTHDWAI13zw37bls5cKjAifpVTPXUSc1E/edit#slide=id.p"> ppt link here </a>
+  <a href="https://docs.google.com/presentation/d/1Fl9EKHrrzHmTHDWAI13zw37bls5cKjAifpVTPXUSc1E/edit#slide=id.p"> ppt link here (Correct)</a>
 
 ### `Website Link`
  <a href="https://explorear.github.io/ExplorAR/">Website link here </a>
