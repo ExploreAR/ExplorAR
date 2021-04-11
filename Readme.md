@@ -1,3 +1,5 @@
+![Made-at-Hack-36](https://user-images.githubusercontent.com/58984405/114290927-daba0100-9aa0-11eb-8495-d8137495ea59.png)
+
 # explorAR
 
 In today's era of conflicting times and modernisation, when it's totally upon us 
@@ -5,6 +7,11 @@ how must we lay the foundation of Education for the future generations to come.
 The World has seen great damage to education in the post - Covid Crises, 
 and the team Pyraticas - 2.0 is yet again back with a great solution!
 
+### `Demo Video Link:`
+  <a href="https://youtu.be/gULRNgcQI5U">Video Link here</a>
+  
+### `Presentation Link:`
+  <a href="https://docs.google.com/presentation/d/1Fl9EKHrrzHmTHDWAI13zw37bls5cKjAifpVTPXUSc1E/edit#slide=id.p"> ppt link here </a>
 
 ### `Problem Statement`
 
@@ -74,3 +81,11 @@ and the team Pyraticas - 2.0 is yet again back with a great solution!
 
 [MapTiler](https://www.maptiler.com/google-maps-platform-alternative/) - Map Integration.
 
+`## Contributors:`
+
+`Team Name: Pyraticas 2.0`
+
+* [Abhijeet Pandey](https://github.com/abhijeetp94)
+* [Abhishek Pathak](https://github.com/Abhisek06)
+* [Ashutosh Pathak](https://github.com/ashutoshPathakVibhu)
+* [Shradhey Pathak](https://github.com/Shradhey1008)
